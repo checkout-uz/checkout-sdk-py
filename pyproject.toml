@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "checkout-uz"
+version = "1.0.0"
+description = "Official Python client for the CHECKOUT.UZ merchant API (v1 and v2)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "CHECKOUT.UZ" }]
+keywords = ["checkout.uz", "payments", "uzbekistan", "payme", "click", "paynet"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "requests>=2.25",
+]
+
+[project.urls]
+Homepage = "https://checkout.uz"
+Documentation = "https://checkout.uz/api-docs"
+"API v1 reference" = "https://checkout.uz/api-docs/v1"
+"API v2 reference" = "https://checkout.uz/api-docs/v2"
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["checkout_uz*"]
