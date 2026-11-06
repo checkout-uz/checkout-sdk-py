@@ -15,14 +15,14 @@ print(payment["payment"]["_url"])  # shu havolani mijozga yuboring
 Hozircha PyPI'da emas — to'g'ridan-to'g'ri GitHub'dan o'rnating:
 
 ```bash
-pip install git+https://github.com/checkout-uz/checkout-sdk-python.git
+pip install git+https://github.com/checkout-uz/checkout-sdk-py.git
 ```
 
 Yoki klonlab, mahalliy o'rnating:
 
 ```bash
-git clone https://github.com/checkout-uz/checkout-sdk-python.git
-cd checkout-sdk-python
+git clone https://github.com/checkout-uz/checkout-sdk-py.git
+cd checkout-sdk-py
 pip install -e .
 ```
 
